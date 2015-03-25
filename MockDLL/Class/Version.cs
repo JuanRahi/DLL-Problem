@@ -11,8 +11,8 @@ namespace MockDLL.Class
     {
         public string Execute()
         {
-            //return "Version A";
-            return "Version B";
+            return "Version A";
+            //return "Version B";
         }
     }
 }
