@@ -7,12 +7,12 @@ using TwoVersionsDLL.Interface;
 
 namespace MockDLL.Class
 {
-    public class VersionA: MarshalByRefObject, IExecute
+    public class Version: MarshalByRefObject, IExecute
     {
         public string Execute()
         {
-            return "Version A";
-            //return "Version B";
+            //return "Version A";
+            return "Version B";
         }
     }
 }
